@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Famy's Auto Studio | Advanced Automation</title>
+    <meta name="description" content="A premium, non-intrusive, window-aware automation suite for Windows.">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=Outfit:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="bg-glow"></div>
+    <div class="bg-glow bg-glow-secondary"></div>
+
+    <header class="glass-header">
+        <div class="container nav-content">
+            <div class="logo-group">
+                <img src="logo.svg" alt="Famy's Auto Studio Logo" class="nav-logo">
+                <span class="nav-title">Famy's Auto Studio</span>
+            </div>
+            <nav>
+                <a href="#features" class="nav-link">Features</a>
+                <a href="https://github.com/famyXpng/FamysAutoStudio" class="nav-link">GitHub</a>
+                <a href="https://github.com/famyXpng/FamysAutoStudio/releases" class="btn btn-outline">Releases</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero container">
+            <div class="hero-content">
+                <div class="badge">Alpha v1.0.0 is Live</div>
+                <h1 class="hero-title">Automate the <span class="gradient-text">Unseen.</span></h1>
+                <p class="hero-subtitle">A premium, window-aware automation suite built for Windows. Run advanced macros and auto-taps directly into background applications without hijacking your mouse or keyboard.</p>
+                <div class="hero-actions">
+                    <a href="https://github.com/famyXpng/FamysAutoStudio/releases/latest" class="btn btn-primary">Download Alpha</a>
+                    <a href="#features" class="btn btn-secondary">Explore Features</a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="app-mockup glass-panel">
+                    <div class="mockup-header">
+                        <span class="dot red"></span>
+                        <span class="dot yellow"></span>
+                        <span class="dot green"></span>
+                        <div class="mockup-title">FamysAutoStudio.exe</div>
+                    </div>
+                    <div class="mockup-body">
+                        <div class="code-line"><span class="keyword">@name</span> <span class="string">"Silent Miner"</span></div>
+                        <div class="code-line"><span class="keyword">@window</span> <span class="string">"Roblox"</span></div>
+                        <br>
+                        <div class="code-line"><span class="comment">// Run completely in the background</span></div>
+                        <div class="code-line"><span class="function">wait</span>(<span class="number">1000</span>)</div>
+                        <div class="code-line"><span class="function">click</span>(<span class="number">500</span>, <span class="number">300</span>)</div>
+                        <div class="code-line"><span class="function">type</span>(<span class="string">"Hello from Famy!"</span>)</div>
+                        <div class="code-line"><span class="function">notify</span>(<span class="string">"Cycle complete."</span>)</div>
+                        <br>
+                        <div class="terminal-output">
+                            <span>> Connecting to Win32 API...</span>
+                            <span class="text-green">> Target window locked.</span>
+                            <span class="text-green">> Executing script silently.</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="features" class="features container">
+            <div class="section-heading">
+                <h2>Next-Gen Capabilities</h2>
+                <p>Built from the ground up to bypass traditional input simulation limitations.</p>
+            </div>
+            <div class="grid">
+                <div class="feature-card glass-panel">
+                    <div class="icon-wrapper blue-glow">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
+                    </div>
+                    <h3>Auto Tap Engine</h3>
+                    <p>High-speed interval clicking with humanized jitter. Directly injects clicks into specific window handles, saving your real mouse.</p>
+                </div>
+                <div class="feature-card glass-panel">
+                    <div class="icon-wrapper pink-glow">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+                    </div>
+                    <h3>FamyScript (.fmac)</h3>
+                    <p>A custom, lightweight scripting language designed explicitly for synchronous, non-intrusive target window automation.</p>
+                </div>
+                <div class="feature-card glass-panel">
+                    <div class="icon-wrapper cyan-glow">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                    </div>
+                    <h3>Task Scheduler</h3>
+                    <p>Autonomous background watchers. Fire off scripts automatically when specific windows open, close, or at specific times.</p>
+                </div>
+                <div class="feature-card glass-panel">
+                    <div class="icon-wrapper purple-glow">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+                    </div>
+                    <h3>Force System Tray</h3>
+                    <p>Click one button to forcefully hide any target application into your System Tray, saving critical GPU & CPU overhead.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container footer-content">
+            <div class="footer-logo">
+                <img src="logo.svg" alt="Logo" width="32">
+                <span>Famy's Auto Studio</span>
+            </div>
+            <p>&copy; 2026 Famy. All rights reserved. Closed Alpha Release.</p>
+        </div>
+    </footer>
+</body>
+</html>
